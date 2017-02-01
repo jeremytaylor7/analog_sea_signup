@@ -8,13 +8,30 @@
 <body>
 
 <img src="logo.png">
-<form>
-<input type="text" name="first_name">
-<input type="text" name="last_name">
-<input type="password" name="type_password">
+<form action="/signup/" method="post">
+
+<p class="s">Sign up</p>
+<label for="email">Email</label>
+<input type="email" name="first_name" placeholder="Email Address" required=>
+
+<label for="pasw">Password</label>
+<input type="password" name="type_password" placeholder="Password" required=>
+
+
+<button type="submit">Sign up</button>
+<a class="anchor" href="/forgot-password/new">forgot password?</a>
+
+
+
+
 	
 
 </form>
+
+
+<div class="footer">
+<p>Already have an account? <a href="/login"><u>Log in</u></a></p>
+</div>
 
 </body>
 

@@ -1,20 +1,119 @@
+html, main, body {
+	margin: 0;
+	padding: 0;
+	background-color: #5DADE2;
+}
 
+
+
+img {
+
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 35px;
+
+
+}
 
 
 
 form {
 
-	background-color: blue;
+	background-color: white;
 	height: 500px;
-	width: 300px;
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 50px;
+	border-radius: 5px;
+	border: 2px solid grey;
+	padding-left: 40px;
+	padding-right: 40px;
+
+	}
+
+.s {
+
+	font-size: 35px;
+	font-weight: 10px;
+	text-align: center;
+	margin-top: -1px;
+	padding: 10px;
+
+}	
+
+.anchor {
+
+
+
+	
+	margin-left: 150px;
+	font-size: 13px;
+	display: block;
+	margin-top: 50px;
+	color: grey;
+
+
+
+
+}
+
+form label {
+
+	font-size: 20px;
+	font-weight: 10px;
 }
 
 input {
 
+	display: block;
+	width: 320px;
+	height: 55px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-bottom: 20px;
-	margin-left: 65px;
-	margin-top: 20px;
+	margin-top: 25px;
+	margin-left: 30px;
+	
+
+
 }
+
+
+
+button {
+
+	height: 55px;
+	width: 320px;
+	background-color: #2ECC71;
+	border-radius: 5px;
+	border: 2px solid grey;
+	font-size: 25px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 45px;
+
+
+
+	}
+
+
+button:hover {
+
+	background-color: green;
+}
+
+.footer {
+
+	margin-left: 350px;
+	font-size: 17px;
+	color: white;
+
+}
+
